@@ -1,5 +1,5 @@
 # notificationBar
-a simple js notificationBar for web and app , u can also filed it with u own style
+a simple js notificationBar for web and app , u can also filed it with ur own style
 
 ## how to use
 
