@@ -1,0 +1,41 @@
+<html>
+
+    <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    </head>
+    <link href="lib/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <body>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span6">
+                    <button id="btn" class="btn btn-success btn-large" type="button">click</button>
+                </div>
+                <div class="span6">
+                    <button id="btn-option" class="btn btn-success btn-large" type="button">click ca bar with option</button>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span12">
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="../lib/cabar.js"></script>
+    <script>
+        document.getElementById('btn').onclick = function(){
+            showBar('loved nobody but u');
+        };
+        document.getElementById('btn-option').onclick = function(){
+            var option = {
+                'backgroundColor': '#66ffcc',
+                'height':120,
+                'lineHeight':120+'px',
+                'top':'-120px'
+            };
+            showBar('nobody loving me but u', 1000, 4, option);
+        };
+    </script>
+
+</html>
