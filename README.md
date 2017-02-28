@@ -25,7 +25,7 @@ showBar('your words')
             showBar('nobody loving me but u', 'success');
 ```
 ### 3、 parameters
-#### showBar(word, holding, speed, option)
+#### showBar(word, type, holding, speed, option)
 ---
 | field        | type           | description  |
 | ------------- |:-------------:| :-----|
