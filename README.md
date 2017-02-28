@@ -21,12 +21,16 @@ showBar('your words')
             };
             showBar('nobody loving me but u', 1000, 4, option);
 ```
+```javascript
+            showBar('nobody loving me but u', 'success');
+```
 ### 3、 parameters
 #### showBar(word, holding, speed, option)
 ---
 | field        | type           | description  |
 | ------------- |:-------------:| :-----|
 |word|string|ur show words|
+|type|string|bootstrap style [primary][success][info][warning][danger]|
 |holding|integer|how long will ur words show in screen|
 |speed|integer|speed!!!|
 |option|object|u can config ur own style with javascript stlye attributes|
