@@ -11,7 +11,7 @@ a simple js notificationBar for web and app , u can also filed it with ur own st
 ```javascript
 showBar('your words')
 ```
-###or config it in ur way
+### or config it in ur way
 ```javascript
             var option = {
                 'backgroundColor': '#66ffcc',
